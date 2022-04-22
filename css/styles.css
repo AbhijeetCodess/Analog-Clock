@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03203C;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+  
+    position: relative;
+        
+}
+#hour,#minute,#second{
+    position: absolute;
+    height: 45%;
+    width: 0.3rem;
+    background-color: black;
+    left: 49.4%;
+    top: 0;
+}
+
+#hour{
+    
+    height: 25%;
+    top: 24%;
+    width: 0.3rem;
+    /* display: none; */
+    transform-origin: bottom;
+
+}
+#minute{
+    top: 19%;
+    height: 30%;
+    transform-origin: bottom;
+    width: 0.25rem;
+
+    /* display: none; */
+}
+#second{
+    height: 36%;
+    transform-origin: bottom;
+    top: 13%;
+    width: 0.2rem;
+    
+}
+h1{
+    margin: 1rem;
+    margin-top: -2rem;
+    color: #fff;
+
+}
